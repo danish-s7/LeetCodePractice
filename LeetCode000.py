@@ -14,3 +14,7 @@ class Solution(object):
             else:
                 complementMap[comp] = i
         
+if __name__ == "__main__":
+    nums = [2, 7, 11, 15]
+    target = 9
+    assert (Solution().twoSum(nums, target) == [0, 1])
